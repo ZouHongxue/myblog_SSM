@@ -36,6 +36,6 @@ public class SingleController {
 		}else if (Integer.valueOf(opt)==6) {
 			model.addAttribute("work", singleService.getWorkById(Integer.valueOf(id)));
 		}
-		return "single";
+		return "front/single";
 	}
 }

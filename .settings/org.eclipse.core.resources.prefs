@@ -1,7 +1,9 @@
 eclipse.preferences.version=1
-encoding//WebRoot/pages/about.jsp=UTF-8
-encoding//WebRoot/pages/archive.jsp=UTF-8
-encoding//WebRoot/pages/home.jsp=UTF-8
-encoding//WebRoot/pages/single.jsp=UTF-8
-encoding//WebRoot/pages/tags.jsp=UTF-8
-encoding//WebRoot/pages/works.jsp=UTF-8
+encoding//WebRoot/admin/index.jsp=UTF-8
+encoding//WebRoot/admin/login.jsp=UTF-8
+encoding//WebRoot/front/about.jsp=UTF-8
+encoding//WebRoot/front/archive.jsp=UTF-8
+encoding//WebRoot/front/home.jsp=UTF-8
+encoding//WebRoot/front/single.jsp=UTF-8
+encoding//WebRoot/front/tags.jsp=UTF-8
+encoding//WebRoot/front/works.jsp=UTF-8
