@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.zhx.dao.HomeDao">
+ 	<select id="getAllArticles" resultType="Article">
+ 		select * from article
+ 	</select>
+ 	
+ 	<select id="getAllLifes" resultType="Life">
+ 		select * from life
+ 	</select>
+ 	
+ 	<select id="getAllKeys" resultType="Key">
+ 		select * from keyword
+ 	</select>
+ 	
+ 	<select id="getAllMyStories" resultType="MyStory">
+ 		select * from mystory
+ 	</select>
+ 	
+ 	<select id="getAllCodeStories" resultType="CodeStory">
+ 		select * from codestory
+ 	</select>
+ 	
+ 	<select id="getAllStudies" resultType="Study">
+ 		select * from study
+ 	</select>
+ 	
+ 	<select id="getAllWorks" resultType="Work">
+ 		select * from work
+ 	</select>
+ </mapper>
